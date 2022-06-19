@@ -12,3 +12,11 @@ Dataset used: https://www.tensorflow.org/datasets/catalog/tf_flowers
 dataset_url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
 data_dir = tf.keras.utils.get_file('flower_photos', origin=dataset_url,  cache_dir='.', untar=True)
 ```
+Read the images into numpy array and preprocess it.
+Train the CNN and evaluate
+The evaluation shows the model is overfitting as the test accuracy is significantly low
+ 
+### Improve the accuracy using Data augmentation and Drop out layer technique
+The Dropout layer is a mask that nullifies the contribution of some neurons towards the next layer and leaves unmodified all others and prevents overfitting on the training data.
+
+After using the data augmentation and drop out layer the accuracy of test set increased significantly
