@@ -1,5 +1,5 @@
 
-## Data Augmentation To Address Overfitting In Flower Classification CNN
+# Data Augmentation To Address Overfitting In Flower Classification CNN
 ### Data augmentation is a process of generating new training samples from current training dataset using transformations such as zoom, rotations, change in contrast etc
 
 Built a CNN to classify flower images and see how the model overfits and how overfitting can be addressed using data augmentation.
